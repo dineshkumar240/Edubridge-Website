@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right top,rgba(135, 0, 0,0.7),rgba(25, 10, 5,0.5)),url(https://media.istockphoto.com/id/1361421117/photo/hiking-couple-climb-up-mountain-ridge.jpg?b=1&s=170667a&w=0&k=20&c=sJ05T029lAitDCpfsHLhSpqR-rXbHrbw_9wmnLMmNdA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper h1{
+    font-size: 80px;
+    color: white;
+}
+
+#wrapper h3{
+    font-size: 60px;
+    color: white;
+}
